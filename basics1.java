@@ -60,8 +60,80 @@ public class basics1{
          * a<b,a>b
          * a<=b,a>=b
          */
-        //;logical operators
+        //logical operators
         //and-&&, or-|| , not-!
+
+    //conditional statements
+        //if-else
+        int x=3;
+        if(x==3)
+        System.out.println("number is 3");
+        else
+        System.out.println("no. is invalid");
+        //switch
+        int day=1;//1-monday ,2-tuesday
+        switch (day) {
+
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                 System.out.println("Tuesday");
+                break;
+        
+            default:
+            System.out.println("wed-sun");
+            break;
+        }    
+    
+    //LOOPS
+        //FOR
+        //for(initialise; condition; update)
+        for(int number=1;number<=10;number++) {
+        System.out.println(number);
+        }
+        //WHILE
+        //while(condition){block of codes}
+        int i=10;
+        while(i>=1){
+            System.out.println(i);
+            --i;
+        }
+        //DO WHILE
+        //do{statements}while(condition);
+        int j= 10;
+        do{
+            System.out.println(j);
+            j--;
+        }while(j>=1);
+
+    //EXCEPTION HANDLING
+        int[] marks1={14,24,56};
+
+
+        try {
+            System.out.println(marks1[5]);
+        } catch (Exception e) {
+            System.out.println("this is aman marks");
+        }
+        
+    //FUNCTIONS/METHODS
+         printsum(1,6);//calling function
+
+    }
+        //function created
+    public static void printsum(int a,int b){
+        int sum=a+b; 
+       System.out.println(sum); 
+    }
+}
+        
+       
+
+        
+
+
+
             
         
 
@@ -73,5 +145,5 @@ public class basics1{
 
 
 
-    }
-}
+
+
