@@ -118,7 +118,7 @@ public class basics1{
         }
         
     //FUNCTIONS/METHODS
-         printsum(1,6);//calling function
+         printsum(1,6);//calling function        
 
     }
         //function created
