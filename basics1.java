@@ -60,6 +60,9 @@ public class basics1{
          * a<b,a>b
          * a<=b,a>=b
          */
+        //;logical operators
+        //and-&&, or-|| , not-!
+            
         
 
 
