@@ -9,11 +9,11 @@ public class basics{
         System.out.println("Input Your marks ");
         int marks= input.nextInt();
         System.out.println(marks);
-
+        input.close();
 
     //variables-to store temporary data in memory
-         String name="Aman";
-        int age= 30;
+        // String name="Aman";
+        // int age= 30;
 
     //data types 
         /*primitive data type
@@ -24,10 +24,10 @@ public class basics{
          * float
          * double
         */
-        byte age1=30;
-        int phone= 123456566;
-        long telephone=23456775L;
-        float pi=3.14F;
+        // byte age1=30;
+        // int phone= 123456566;
+        // long telephone=23456775L;
+        // float pi=3.14F;
 
         /*non-primitive -strings,arrays */
         String Name="Leo";
@@ -126,6 +126,7 @@ public class basics{
         int sum=a+b; 
        System.out.println(sum); 
     }
+    
 }
         
        
