@@ -11,7 +11,7 @@ public class arrays {
         String[] arr2= new String[]{"aa","bb","cc"};
         System.out.println(arr2[0] + arr1[0]);
 
-    //usert input
+    //user input
         Scanner in= new Scanner(System.in);
         int marks[]=new int[5];
 
